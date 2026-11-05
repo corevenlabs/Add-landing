@@ -1,0 +1,56 @@
+/* Motion is opt-in: without observer support, content is visible by default. */
+:root {
+  --motion-duration: 520ms;
+  --motion-ease: cubic-bezier(.22, 1, .36, 1);
+}
+[data-reveal] { --reveal-delay: 0ms; }
+[data-reveal-delay='1'] { --reveal-delay: 60ms; }
+[data-reveal-delay='2'] { --reveal-delay: 120ms; }
+[data-reveal-delay='3'] { --reveal-delay: 180ms; }
+[data-reveal][data-reveal-state] {
+  transition: opacity var(--motion-duration) var(--motion-ease) var(--reveal-delay),
+    translate var(--motion-duration) var(--motion-ease) var(--reveal-delay),
+    transform 300ms var(--motion-ease), box-shadow 300ms ease;
+}
+[data-reveal-state='pending'] { opacity: 0; translate: 0 18px; }
+[data-reveal='fade'][data-reveal-state='pending'] { translate: none; }
+[data-reveal-state='visible'] { opacity: 1; translate: 0 0; }
+[data-reveal]:focus-within { opacity: 1; translate: none; transition-delay: 0ms; }
+
+.hero-slide { transform: scale(1.035); }
+.hero-slide.is-active { animation: hero-image-drift var(--hero-cycle, 4000ms) linear both; }
+@keyframes hero-image-drift {
+  from { transform: scale(1); }
+  to { transform: scale(1.035); }
+}
+.hero-copy { animation: hero-copy-in 600ms var(--motion-ease) both; }
+.hero .actions { animation: hero-copy-in 600ms var(--motion-ease) 100ms both; }
+.hero-bottom { animation: motion-fade-in 600ms ease 160ms both; }
+@keyframes motion-fade-in { from { opacity: 0; } to { opacity: 1; } }
+
+.btn { transition: transform 240ms var(--motion-ease), background-color 240ms ease, box-shadow 240ms ease; }
+.btn:active { transform: translateY(0); }
+.textlink, .navcta, .email { transition: color 220ms ease, border-color 220ms ease; }
+.filters button, .material-tabs button { transition: background-color 220ms ease, color 220ms ease, border-color 220ms ease; }
+.product, .certificate-format { transition: transform 300ms var(--motion-ease), box-shadow 300ms ease; }
+.original-image > a { overflow: hidden; }
+.original-image img { transition: transform 420ms var(--motion-ease); }
+.material-measure { transform-origin: left center; }
+[data-reveal-state='visible'] > .material-measure { animation: material-emphasis 600ms var(--motion-ease) var(--reveal-delay) both; }
+@keyframes material-emphasis {
+  from { opacity: .65; transform: scale(.96); }
+  to { opacity: 1; transform: scale(1); }
+}
+@media (hover: hover) and (pointer: fine) {
+  .btn:hover { box-shadow: 0 8px 20px #00000016; }
+  .product:hover, .certificate-format:hover { transform: translateY(-4px); }
+  .certificate-format:hover { box-shadow: 0 12px 28px #15191e0c; }
+  .original-image a:hover img { transform: scale(1.025); }
+  .textlink:hover, .email:hover { color: #f04b53; border-color: #f04b53; }
+}
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { animation: none !important; transition: none !important; }
+  [data-reveal-state], [data-reveal-state='pending'] { opacity: 1; translate: none; }
+  .hero-slide, .original-image img, .material-measure, .product, .certificate-format, .btn { transform: none !important; }
+}

@@ -1,0 +1,401 @@
+{
+  "products": [
+    {
+      "id": "01",
+      "name": "Placa de certificación",
+      "description": "Acrílico con separadores metálicos",
+      "category": "placas",
+      "tag": "CERTIFICACIÓN",
+      "lines": [
+        "INSTALACIÓN",
+        "CERTIFICADA"
+      ]
+    },
+    {
+      "id": "02",
+      "name": "Carga máxima",
+      "description": "Información visible para la cabina",
+      "category": "placas",
+      "tag": "CAPACIDAD",
+      "lines": [
+        "CARGA MÁXIMA",
+        "PERSONAS / KG"
+      ]
+    },
+    {
+      "id": "03",
+      "name": "Contacto de emergencia",
+      "description": "Datos de contacto siempre a mano",
+      "category": "seguridad",
+      "tag": "EMERGENCIA",
+      "lines": [
+        "EN EMERGENCIA",
+        "LLAMAR"
+      ]
+    },
+    {
+      "id": "04",
+      "name": "No usar en mantención",
+      "description": "Señalización para el servicio técnico",
+      "category": "seguridad",
+      "tag": "SEGURIDAD",
+      "lines": [
+        "NO USAR",
+        "EN MANTENCIÓN"
+      ]
+    },
+    {
+      "id": "05",
+      "name": "Comunicados de administración",
+      "description": "Portahojas para información del edificio",
+      "category": "administracion",
+      "tag": "ADMINISTRACIÓN",
+      "lines": [
+        "COMUNICADO",
+        "ADMINISTRACIÓN"
+      ]
+    },
+    {
+      "id": "06",
+      "name": "No usar en caso de incendio",
+      "description": "Señalética para accesos y cabinas",
+      "category": "seguridad",
+      "tag": "SEGURIDAD",
+      "lines": [
+        "NO USAR EN CASO",
+        "DE INCENDIO"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": "all",
+      "name": "Todas las soluciones"
+    },
+    {
+      "id": "placas",
+      "name": "Placas informativas"
+    },
+    {
+      "id": "seguridad",
+      "name": "Seguridad"
+    },
+    {
+      "id": "administracion",
+      "name": "Administración"
+    }
+  ],
+  "materials": [
+    {
+      "name": "Acero inoxidable",
+      "description": "Una apariencia metálica sobria para integrar la señalética a la arquitectura del edificio."
+    },
+    {
+      "name": "Acrílico",
+      "description": "Transparencia y ligereza visual para placas y portahojas. Consulta las opciones de fijación."
+    },
+    {
+      "name": "Aluminio",
+      "description": "Una terminación metálica para información y señalética. Consulta las medidas disponibles."
+    }
+  ],
+  "steps": [
+    {
+      "id": "01",
+      "title": "Cuéntanos qué necesitas",
+      "description": "Elige un tipo de letrero o comparte una referencia de lo que buscas."
+    },
+    {
+      "id": "02",
+      "title": "Definimos los detalles",
+      "description": "Revisamos medidas, material, contenido y cantidad para preparar tu propuesta."
+    },
+    {
+      "id": "03",
+      "title": "Recibe tu cotización",
+      "description": "Confirma valores, plazos y opciones de entrega directamente con nuestro equipo."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Qué información necesito para cotizar?",
+      "answer": "Tipo de letrero, cantidad, medidas aproximadas y material de interés. Si tienes una fotografía de referencia, puedes compartirla por WhatsApp."
+    },
+    {
+      "question": "¿Qué materiales puedo consultar?",
+      "answer": "Puedes consultar por soluciones en acrílico, aluminio y acero inoxidable. La disponibilidad y terminación se revisan según el producto."
+    },
+    {
+      "question": "¿Puedo solicitar un diseño para mi edificio?",
+      "answer": "Envíanos el contenido y tus referencias para evaluar las opciones de personalización."
+    },
+    {
+      "question": "¿Cómo confirmo instalación, entrega y plazos?",
+      "answer": "Indica la ubicación de tu proyecto al cotizar para consultar las alternativas de instalación, entrega y tiempos disponibles."
+    }
+  ],
+  "certificatePage": {
+    "introduction": "Todo ascensor debe contar con documentación técnica vigente que acredite que opera de forma segura. Exhibir esa información dentro de la cabina da confianza a los usuarios y demuestra el cumplimiento de la normativa.",
+    "definition": "Es el documento emitido por una empresa o profesional competente tras inspeccionar el equipo. Certifica que el ascensor cumple con los requisitos de seguridad y que sus componentes —frenos, cables, puertas y sistemas de emergencia— funcionan correctamente.",
+    "location": "En un letrero o placa visible dentro de la cabina, junto al panel de botones. Normalmente se indica:",
+    "information": [
+      "Nombre de la empresa mantenedora y su teléfono de contacto",
+      "Fecha de la última certificación y fecha de vencimiento",
+      "Número de identificación del equipo",
+      "Capacidad máxima autorizada"
+    ],
+    "importance": "Mantener la certificación vigente permite acreditar las revisiones del equipo y disponer de información actualizada para la comunidad y los administradores.",
+    "signage": "El letrero debe ser legible, resistente al uso diario y fácil de actualizar cada vez que se renueve la certificación. Los letreros intercambiables permiten cambiar solo la información vencida, sin reemplazar la placa completa.",
+    "formatsIntroduction": "Existen dos medidas: Cabina y Primer piso. Consulta las dimensiones y la presentación adecuada para tu edificio.",
+    "formats": [
+      {
+        "id": "primer-piso",
+        "number": "01",
+        "name": "Primer piso",
+        "description": "Portacertificados para exhibir la información técnica en el acceso del ascensor.",
+        "images": [
+          {
+            "src": "/assets/certificados/primer-piso-instalado.png",
+            "alt": "Letrero ADDA de instalación certificada junto al acceso del ascensor",
+            "caption": "Vista de instalación",
+            "width": 691,
+            "height": 651
+          },
+          {
+            "src": "/assets/certificados/primer-piso-producto.png",
+            "alt": "Detalle del portacertificado ADDA de primer piso, con placa transparente y separadores metálicos",
+            "caption": "Detalle del portacertificado",
+            "width": 652,
+            "height": 642
+          }
+        ]
+      },
+      {
+        "id": "cabina",
+        "number": "02",
+        "name": "Cabina",
+        "description": "Portacertificados para mantener la documentación visible dentro de la cabina.",
+        "images": [
+          {
+            "src": "/assets/certificados/cabina-instalado.png",
+            "alt": "Portacertificado ADDA instalado dentro de la cabina junto al panel de botones",
+            "caption": "Instalado dentro de la cabina",
+            "width": 546,
+            "height": 618
+          },
+          {
+            "src": "/assets/hero-certificados.png",
+            "alt": "Portacertificados ADDA con sus placas y separadores metálicos, vistos antes de la instalación",
+            "caption": "Materiales y terminaciones",
+            "width": 942,
+            "height": 583
+          }
+        ]
+      }
+    ]
+  },
+  "communicationsPage": {
+    "introduction": "El ascensor es una zona de alto tráfico de personas. Un portaviso permite a la administración entregar información importante para la comunidad, con una presentación clara y ordenada.",
+    "topics": [
+      "Mantenciones programadas y cortes de servicio",
+      "Cambios de horario o normas de uso",
+      "Reuniones de copropietarios y recordatorios de gastos comunes",
+      "Avisos de seguridad, mudanzas o trabajos en el edificio",
+      "Información de contacto de la administración"
+    ],
+    "principles": [
+      {
+        "title": "Mensaje breve y directo",
+        "description": "Fecha, hora y motivo en pocas líneas."
+      },
+      {
+        "title": "Tipografía legible",
+        "description": "Letras grandes y buen contraste para leerse en segundos."
+      },
+      {
+        "title": "Ubicación visible",
+        "description": "A la altura de los ojos, junto al panel o en la puerta."
+      },
+      {
+        "title": "Información al día",
+        "description": "Retirar los avisos vencidos evita confusiones."
+      }
+    ],
+    "interchangeable": "Los portaavisos intercambiables permiten cambiar el comunicado en segundos, sin pegar ni despegar papeles. Mantienen una presentación ordenada y profesional, y protegen el mensaje del desgaste y de la manipulación.",
+    "closing": "Un ascensor con información clara y actualizada refleja una administración ordenada y cercana a su comunidad.",
+    "images": [
+      {
+        "src": "/assets/comunicados/portaviso-carta.png",
+        "alt": "Portaaviso ADDA de acrílico tamaño carta",
+        "width": 854,
+        "height": 581,
+        "caption": "Portaaviso tamaño carta"
+      },
+      {
+        "src": "/assets/comunicados/acrilico-tres-lados.png",
+        "alt": "Portaaviso ADDA de acrílico cerrado por tres lados",
+        "width": 506,
+        "height": 642,
+        "caption": "Acrílico cerrado por tres lados"
+      }
+    ]
+  },
+  "materialsPage": {
+    "introduction": "La elección del material y el espesor de cada pieza se ajusta al tamaño del letrero y a su aplicación en el ascensor.",
+    "materials": [
+      "Acero inoxidable",
+      "Acrílico",
+      "Adhesivos PVC",
+      "Cobre",
+      "Bronce"
+    ],
+    "thicknesses": [
+      {
+        "name": "Acrílico",
+        "value": "3",
+        "unit": "mm",
+        "description": "Espesor de uso habitual en letreros de acrílico."
+      },
+      {
+        "name": "Acero inoxidable",
+        "value": "1",
+        "unit": "mm",
+        "description": "Referencia de espesor para placas de acero inoxidable."
+      }
+    ],
+    "thicknessNote": "Los espesores de cada pieza de letrero o señalética deben ajustarse al tamaño. Confirma las medidas de tu proyecto al cotizar.",
+    "installation": "En las cabinas de ascensor, la instalación se realiza con cinta de doble contacto y siliconas de montaje. No se perforan las paredes del ascensor.",
+    "images": [
+      {
+        "src": "/assets/materiales/letrero-acrilico.png",
+        "alt": "Letrero ADDA de acrílico para ascensor",
+        "width": 993,
+        "height": 505,
+        "caption": "Letrero de acrílico para ascensor"
+      },
+      {
+        "src": "/assets/comunicados/portaviso-carta.png",
+        "alt": "Portaaviso ADDA de acrílico tamaño carta",
+        "width": 854,
+        "height": 581,
+        "caption": "Portaaviso de acrílico tamaño carta"
+      },
+      {
+        "src": "/assets/materiales/portacertificado.png",
+        "alt": "Placas y separadores de un portacertificado ADDA",
+        "width": 942,
+        "height": 583,
+        "caption": "Portacertificado y terminaciones"
+      }
+    ]
+  },
+  "aboutPage": {
+    "company": "Grupo Adda Chile",
+    "founded": "1990",
+    "introduction": "Somos parte del Grupo Adda Chile, empresa fundada en 1990.",
+    "website": "https://letrerosascensores.cl",
+    "description": "En ADDA desarrollamos letreros, placas y portaavisos para ascensores, pensados para que la información de tu edificio se vea clara, ordenada y bien presentada.",
+    "approach": "Cada edificio tiene necesidades distintas. Por eso, al cotizar revisamos contigo el contenido, las medidas, el material y la cantidad de piezas, para definir una presentación adecuada para cada aplicación.",
+    "principles": [
+      {
+        "title": "Información clara",
+        "description": "Señalética y portaavisos que ayudan a presentar certificados, comunicados y datos importantes de forma legible y ordenada."
+      },
+      {
+        "title": "Detalles bien definidos",
+        "description": "Revisamos medidas, materiales y contenido para preparar una propuesta acorde con lo que necesita tu edificio."
+      },
+      {
+        "title": "Contacto directo",
+        "description": "Conversa con nuestro equipo por WhatsApp, teléfono o correo para resolver dudas y consultar las opciones de tu proyecto."
+      }
+    ],
+    "process": [
+      {
+        "title": "Nos cuentas tu idea",
+        "description": "Comparte el tipo de letrero, la cantidad o una fotografía de referencia."
+      },
+      {
+        "title": "Revisamos los detalles",
+        "description": "Definimos el contenido, las medidas y el material de interés."
+      },
+      {
+        "title": "Recibes tu cotización",
+        "description": "Consulta valores, plazos y alternativas de entrega con nuestro equipo."
+      }
+    ],
+    "image": {
+      "src": "/assets/certificados/primer-piso-producto.png",
+      "alt": "Detalle de un portacertificado ADDA instalado, con placa transparente y separadores metálicos",
+      "width": 652,
+      "height": 642,
+      "caption": "Un detalle de nuestras soluciones para ascensores."
+    },
+    "contact": {
+      "phone": "+56 9 6618 6466",
+      "phoneLink": "tel:+56966186466",
+      "email": "adda@adda.cl",
+      "address": "Huérfanos 886, Oficina 724 · Santiago de Chile"
+    }
+  },
+  "privacyPage": {
+    "sourceWebsite": "https://letrerosascensores.cl",
+    "sourceUrl": "https://letrerosascensores.cl/pagina-de-politica-de-privacidad/",
+    "sections": [
+      {
+        "title": "Comentarios",
+        "paragraphs": [
+          "Cuando los visitantes dejan comentarios en la web, recopilamos los datos que se muestran en el formulario de comentarios, así como la dirección IP del visitante y la cadena de agentes de usuario del navegador para ayudar a la detección de spam.",
+          "Una cadena anónima creada a partir de tu dirección de correo electrónico (también llamada hash) puede ser proporcionada al servicio de Gravatar para ver si la estás usando. La política de privacidad del servicio Gravatar está disponible aquí: https://automattic.com/privacy/. Después de la aprobación de tu comentario, la imagen de tu perfil es visible para el público en el contexto de tu comentario."
+        ]
+      },
+      {
+        "title": "Medios",
+        "paragraphs": [
+          "Si subes imágenes a la web, deberías evitar subir imágenes con datos de ubicación (GPS EXIF) incluidos. Los visitantes de la web pueden descargar y extraer cualquier dato de ubicación de las imágenes de la web."
+        ]
+      },
+      {
+        "title": "Cookies",
+        "paragraphs": [
+          "Si dejas un comentario en nuestro sitio puedes elegir guardar tu nombre, dirección de correo electrónico y web en cookies. Esto es para tu comodidad, para que no tengas que volver a rellenar tus datos cuando dejes otro comentario. Estas cookies tendrán una duración de un año.",
+          "Si tienes una cuenta y te conectas a este sitio, instalaremos una cookie temporal para determinar si tu navegador acepta cookies. Esta cookie no contiene datos personales y se elimina al cerrar el navegador.",
+          "Cuando accedas, también instalaremos varias cookies para guardar tu información de acceso y tus opciones de visualización de pantalla. Las cookies de acceso duran dos días, y las cookies de opciones de pantalla duran un año. Si seleccionas «Recuérdarme», tu acceso perdurará durante dos semanas. Si sales de tu cuenta, las cookies de acceso se eliminarán.",
+          "Si editas o publicas un artículo se guardará una cookie adicional en tu navegador. Esta cookie no incluye datos personales y simplemente indica el ID del artículo que acabas de editar. Caduca después de 1 día."
+        ]
+      },
+      {
+        "title": "Contenido incrustado de otros sitios web",
+        "paragraphs": [
+          "Los artículos de este sitio pueden incluir contenido incrustado (por ejemplo, vídeos, imágenes, artículos, etc.). El contenido incrustado de otras webs se comporta exactamente de la misma manera que si el visitante hubiera visitado la otra web.",
+          "Estas web pueden recopilar datos sobre ti, utilizar cookies, incrustar un seguimiento adicional de terceros, y supervisar tu interacción con ese contenido incrustado, incluido el seguimiento de tu interacción con el contenido incrustado si tienes una cuenta y estás conectado a esa web."
+        ]
+      },
+      {
+        "title": "Con quién compartimos tus datos",
+        "paragraphs": [
+          "Si solicitas un restablecimiento de contraseña, tu dirección IP será incluida en el correo electrónico de restablecimiento."
+        ]
+      },
+      {
+        "title": "Cuánto tiempo conservamos tus datos",
+        "paragraphs": [
+          "Si dejas un comentario, el comentario y sus metadatos se conservan indefinidamente. Esto es para que podamos reconocer y aprobar comentarios sucesivos automáticamente, en lugar de mantenerlos en una cola de moderación.",
+          "De los usuarios que se registran en nuestra web (si los hay), también almacenamos la información personal que proporcionan en su perfil de usuario. Todos los usuarios pueden ver, editar o eliminar su información personal en cualquier momento (excepto que no pueden cambiar su nombre de usuario). Los administradores de la web también pueden ver y editar esa información."
+        ]
+      },
+      {
+        "title": "Qué derechos tienes sobre tus datos",
+        "paragraphs": [
+          "Si tienes una cuenta o has dejado comentarios en esta web, puedes solicitar recibir un archivo de exportación de los datos personales que tenemos sobre ti, incluyendo cualquier dato que nos hayas proporcionado. También puedes solicitar que eliminemos cualquier dato personal que tengamos sobre ti. Esto no incluye ningún dato que estemos obligados a conservar con fines administrativos, legales o de seguridad."
+        ]
+      },
+      {
+        "title": "Dónde se envían tus datos",
+        "paragraphs": [
+          "Los comentarios de los visitantes puede que los revise un servicio de detección automática de spam."
+        ]
+      }
+    ]
+  }
+}
